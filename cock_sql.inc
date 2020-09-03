@@ -39,4 +39,4 @@ native bool:cocklite_get_field_bool(CDBResult:result, field = 0) = bool:db_get_f
 native cocklite_get_field_assoc(CDBResult:result, const field[], result[], maxlength = sizeof result) = db_get_field_assoc;
 native cocklite_get_field_assoc_int(CDBResult:result, const field[]) = db_get_field_assoc_int;
 native cocklite_get_field_assoc_float(CDBResult:result, const field[]) = db_get_field_assoc_float;
-native bool:cocklite_get_field_assoc_bool(CDBResult:result, const field[]) = bool:db_get_field_assoc_float;
+native bool:cocklite_get_field_assoc_bool(CDBResult:result, const field[]) = bool:db_get_field_assoc_int;
