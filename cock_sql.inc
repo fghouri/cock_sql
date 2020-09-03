@@ -30,7 +30,7 @@ native cocklite_query(CDB:db, const query[]) = db_query;
 native cocklite_free_result(CBResult:dbresult) = db_free_result;
 native cocklite_next_row(CDBResult:dbresult) = db_next_row;
 native cocklite_num_rows(CDBResult:dbresult) = db_num_rows;
-native cocklite_num_fields(CDBResult:dbresult) = db_num_rows;
+native cocklite_num_fields(CDBResult:dbresult) = db_num_fields;
 
 native cocklite_get_field(CDBResult:result, field, result[], maxlength = sizeof result) = db_get_field;
 native cocklite_get_field_int(CDBResult:result, field = 0) = db_get_field_int;
